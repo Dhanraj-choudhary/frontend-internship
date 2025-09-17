@@ -1,0 +1,166 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+ 
+  color: #333;
+}
+
+
+/* Input & Add */
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  background: #f3ede8;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+.input-container input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  flex: 1;
+  background: transparent;
+  font-size: 1rem;
+}
+
+.add-btn {
+  background: #62b6cb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-btn:hover {
+  background: #4b9aaa;
+}
+
+/* To-do List */
+.todo-container {
+  max-width: 500px;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f3ede8;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 1rem;
+}
+
+li span {
+  cursor: pointer;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.delete-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #d9534f;
+}
+
+.delete-btn:hover {
+  color: #c9302c;
+}
+
+/* GitHub Card */
+.github-container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.github-card {
+  background-color: #f3ede8;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 500px;
+  height: 400px;
+  margin-left: 3vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  position: relative;
+}
+
+.github-info {
+  width: 100%;
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.github-card img {
+  width: 150px; 
+  height: 150px;
+  /* margin-bottom: 10px; */
+  margin-top: 150px;
+  border-radius: 20px;
+}
+
+.github-card h3 {
+  margin: 0 0 10px;
+  color: #333;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.github-card p {
+  margin: 5px 0;
+  color: #666;
+  text-align: left;
+  width: 100%;
+}
+
+.github-card p::before {
+  content: attr(data-icon);
+  margin-right: 5px;
+}
+
+.github-card [data-icon="📍"],
+.github-card [data-icon="👥"],
+.github-card [data-icon="📦"] {
+  font-size: 1em;
+}
+
+
+.home-container-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-buttons{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  
+}

@@ -1,0 +1,23 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root body styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #faf9f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Root element to center app */
+#root {
+  max-width: 100vw;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #9786989d;
+}
