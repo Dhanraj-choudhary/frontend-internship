@@ -6,7 +6,7 @@ The project is built using **React + Vite**, and demonstrates skills in **React,
 ---
 
 ##  Live Demo  
-[Click here to view the deployed app](https://your-netlify-or-vercel-link.com)  
+[Click here to view the deployed app](https://frontend-internship-dw7d.vercel.app/)  
 
 ---
 
