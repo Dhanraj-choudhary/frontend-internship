@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import TodoPage from "./pages/TodoPage";
 import GithubPage from "./pages/GithubPage";
-import "./app.css";
+import "./App.css";
 
 export default function App() {
   return (
